@@ -149,7 +149,6 @@ sudo mv ~/Descargas/nvim-linux64.tar.gz .
 sudo tar -xf nvim-linux64.tar.gz
 sudo rm nvim-linux64.tar.gz
 cd /opt/nvim-linux64/bin
-./nvim
 sudo ./nvim
 
 # Fix archivos inseguros de zsh

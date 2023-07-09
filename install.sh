@@ -178,6 +178,9 @@ cd ~/Herramientas
 git clone --depth 1 https://github.com/cjbassi/gotop
 sudo ~/Herramientas/gotop/scripts/download.sh
 
+# Instalando Docker.io
+sudo apt install docker.io
+
 # Fix archivos inseguros de zsh
 sudo chown -R root:root /usr/local/share/zsh/site-functions
 

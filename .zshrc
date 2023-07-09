@@ -1,3 +1,6 @@
+# Fix archivos inseguros de zsh
+ZSH_DISABLE_COMPFIX=true
+
 # Fix the Java Problem
 export _JAVA_AWT_WM_NONREPARENTING=1
 

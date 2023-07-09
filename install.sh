@@ -162,6 +162,13 @@ git clone https://github.com/UnaPibaGeek/ctfr.git
 cd ctfr
 sudo pip3 install -r requirements.txt
 
+# Instalando ffuf (https://github.com/ffuf/ffuf)
+cd ~/Herramientas
+git clone https://github.com/ffuf/ffuf
+cd ffuf
+go get
+go build
+
 # Instalar SecList (Diccionarios)
 cd /usr/share/
 sudo git clone https://github.com/danielmiessler/SecLists.git

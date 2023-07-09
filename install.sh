@@ -137,6 +137,21 @@ sudo chmod +x /usr/local/bin/screenshot
 
 rofi-theme-selector
 
+# Configurando Neovim con NVChad
+
+sudo apt install npm
+cd ~/Descargas
+wget "https://github.com/neovim/neovim/releases/download/stable/nvim-linux64.tar.gz"
+rm -r ~/.config/nvim
+git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1
+cd /opt/
+sudo mv ~/Descargas/nvim-linux64.tar.gz .
+tar -xf nvim-linux64.tar.gz
+rm nvim-linux64.tar.gz
+cd /opt/nvim-linux64/bin
+./nvim
+sudo ./nvim
+
 # Removiendo Repositorio
 
 rm -rf ~/github

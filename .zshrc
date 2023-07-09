@@ -66,7 +66,7 @@ alias catn='cat'
 alias catnl='batcat'
 alias ctfr='python3 ~/Herramientas/ctfr/ctfr.py -d'
 alias ffuf='~/Herramientas/ffuf/ffuf'
-
+alias gotop='~/Herramientas/gotop/scripts/gotop -c vice'
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 

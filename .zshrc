@@ -64,8 +64,8 @@ alias ls='lsd --group-dirs=first'
 alias cat='/bin/batcat --paging=never'
 alias catn='cat'
 alias catnl='batcat'
-alias ctfr='python3 /opt/ctfr/ctfr.py -d'
-alias ffuf='/home/vett3x/Herramientas/ffuf/ffuf'
+alias ctfr='python3 ~/Herramientas/ctfr/ctfr.py -d'
+alias ffuf='~/Herramientas/ffuf/ffuf'
 
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

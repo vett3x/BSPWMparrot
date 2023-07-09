@@ -162,6 +162,10 @@ git clone https://github.com/UnaPibaGeek/ctfr.git
 cd ctfr
 sudo pip3 install -r requirements.txt
 
+# Instalar SecList (Diccionarios)
+cd /usr/share/
+sudo git clone https://github.com/danielmiessler/SecLists.git
+
 # Fix archivos inseguros de zsh
 sudo chown -R root:root /usr/local/share/zsh/site-functions
 

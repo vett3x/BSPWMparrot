@@ -152,6 +152,10 @@ cd /opt/nvim-linux64/bin
 ./nvim
 sudo ./nvim
 
+# Fix archivos inseguros de zsh
+sudo chown -R root:root /usr/local/share/zsh/site-functions
+
+
 # Removiendo Repositorio
 
 rm -rf ~/github

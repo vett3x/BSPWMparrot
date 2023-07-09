@@ -151,6 +151,17 @@ sudo rm nvim-linux64.tar.gz
 cd /opt/nvim-linux64/bin
 sudo ./nvim
 
+# Instalando flameshot
+sudo apt install flameshot -y
+
+# Instalando CTFR
+sudo apt install python
+mkdir ~/Herramientas
+cd ~/Herramientas
+git clone https://github.com/UnaPibaGeek/ctfr.git
+cd ctfr
+sudo pip3 install -r requirements.txt
+
 # Fix archivos inseguros de zsh
 sudo chown -R root:root /usr/local/share/zsh/site-functions
 

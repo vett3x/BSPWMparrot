@@ -180,6 +180,7 @@ sudo ~/Herramientas/gotop/scripts/download.sh
 
 # Instalando Docker.io
 sudo apt install docker.io
+sudo apt install docker-compose
 
 # Fix archivos inseguros de zsh
 sudo chown -R root:root /usr/local/share/zsh/site-functions

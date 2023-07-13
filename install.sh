@@ -133,6 +133,9 @@ chmod +x ~/.config/polybar/launch.sh
 sudo chmod +x /usr/local/bin/whichSystem.py
 sudo chmod +x /usr/local/bin/screenshot
 
+# Fix archivos inseguros de zsh
+sudo chown -R root:root /usr/local/share/zsh/site-functions
+
 # Configuramos el Tema de Rofi
 
 rofi-theme-selector
@@ -181,9 +184,6 @@ sudo ~/Herramientas/gotop/scripts/download.sh
 # Instalando Docker.io
 sudo apt install docker.io -y
 sudo apt install docker-compose -y
-
-# Fix archivos inseguros de zsh
-sudo chown -R root:root /usr/local/share/zsh/site-functions
 
 # Removiendo Repositorio
 

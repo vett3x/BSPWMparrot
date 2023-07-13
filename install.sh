@@ -139,7 +139,7 @@ rofi-theme-selector
 
 # Configurando Neovim con NVChad
 
-sudo apt install npm
+sudo apt install npm -y
 cd ~/Descargas
 wget "https://github.com/neovim/neovim/releases/download/stable/nvim-linux64.tar.gz"
 sudo rm -r ~/.config/nvim
@@ -155,7 +155,7 @@ sudo ./nvim
 sudo apt install flameshot -y
 
 # Instalando CTFR
-sudo apt install python
+sudo apt install python -y
 mkdir ~/Herramientas
 cd ~/Herramientas
 git clone https://github.com/UnaPibaGeek/ctfr.git
@@ -179,8 +179,8 @@ git clone --depth 1 https://github.com/cjbassi/gotop
 sudo ~/Herramientas/gotop/scripts/download.sh
 
 # Instalando Docker.io
-sudo apt install docker.io
-sudo apt install docker-compose
+sudo apt install docker.io -y
+sudo apt install docker-compose -y
 
 # Fix archivos inseguros de zsh
 sudo chown -R root:root /usr/local/share/zsh/site-functions

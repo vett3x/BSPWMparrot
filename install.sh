@@ -173,6 +173,7 @@ go get
 go build
 
 # Instalando CrackMapExec
+# https://github.com/mpgn/CrackMapExec y https://wiki.porchetta.industries/
 sudo python3 -m pip install pipx
 cd ~/Herramientas
 sudo git clone https://github.com/mpgn/CrackMapExec

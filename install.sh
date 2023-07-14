@@ -172,6 +172,13 @@ cd ffuf
 go get
 go build
 
+# Instalando CrackMapExec
+sudo python3 -m pip install pipx
+cd ~/Herramientas
+sudo git clone https://github.com/mpgn/CrackMapExec
+cd CrackMapExec
+sudo pipx install .
+
 # Instalar SecList (Diccionarios)
 cd /usr/share/
 sudo git clone https://github.com/danielmiessler/SecLists.git

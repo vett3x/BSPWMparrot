@@ -193,6 +193,9 @@ sudo ~/Herramientas/gotop/scripts/download.sh
 sudo apt install docker.io -y
 sudo apt install docker-compose -y
 
+# Instalando cifs-utils (Monturas)
+sudo apt install cifs-utils -y
+
 # Removiendo Repositorio
 
 rm -rf ~/github

@@ -203,4 +203,4 @@ rm -rf $ruta
 
 # Mensaje de Instalado
 
-notify-send "BSPWM INSTALADO"
+notify-send "INSTALACIÓN COMPLETADA. IMPORTANTE: INICIAR LA CONFIGURACIÓN DEL NVIM EN USUARIO ROOT ------> 'SUDO SU Y LUEGO NVIM EN CONSOLA' <------  "

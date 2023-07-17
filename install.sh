@@ -196,6 +196,12 @@ sudo apt install docker-compose -y
 # Instalando cifs-utils (Monturas)
 sudo apt install cifs-utils -y
 
+# Instalando Exploitdb
+sudo apt install exploitdb -y
+
+# Instalando y corrigiendo error de wpscan (el que viene en parrot no funciona)
+gem install wpscan
+
 # Removiendo Repositorio
 
 rm -rf ~/github

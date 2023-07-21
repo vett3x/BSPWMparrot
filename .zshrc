@@ -68,7 +68,7 @@ alias ctfr='python3 ~/Herramientas/ctfr/ctfr.py -d'
 alias ffuf='~/Herramientas/ffuf/ffuf'
 alias gotop='~/Herramientas/gotop/scripts/gotop -c vice'
 alias joomscan='perl ~/Herramientas/joomscan/joomscan.pl'
-
+alias magescan='php ~/Herramientas/magescan/magescan.phar'
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 

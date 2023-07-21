@@ -200,11 +200,14 @@ sudo apt install cifs-utils -y
 sudo apt install exploitdb -y
 
 # Instalando y corrigiendo error de wpscan (el que viene en parrot no funciona)
-gem install wpscan
+sudo gem install wpscan
 
 # Instalando joomscan https://github.com/OWASP/joomscan
-cd ~/Herramientas
-git clone https://github.com/rezasp/joomscan.git
+sudo git clone https://github.com/rezasp/joomscan.git
+
+# Instalando droopescan
+sudo git clone https://github.com/SamJoan/droopescan
+
 
 # Removiendo Repositorio
 

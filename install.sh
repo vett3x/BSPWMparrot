@@ -212,6 +212,12 @@ sudo pip install -r requirements.txt
 sudo python3 setup.py install
 cd ..
 
+# Instalando Magescan https://github.com/steverobbins/magescan
+sudo git clone https://github.com/steverobbins/magescan
+cd magescan/
+wget https://github.com/steverobbins/magescan/releases/download/v1.12.9/magescan.phar
+cd ..
+
 # Removiendo Repositorio
 
 rm -rf ~/github

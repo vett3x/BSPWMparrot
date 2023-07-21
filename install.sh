@@ -202,6 +202,10 @@ sudo apt install exploitdb -y
 # Instalando y corrigiendo error de wpscan (el que viene en parrot no funciona)
 gem install wpscan
 
+# Instalando joomscan https://github.com/OWASP/joomscan
+cd ~/Herramientas
+git clone https://github.com/rezasp/joomscan.git
+
 # Removiendo Repositorio
 
 rm -rf ~/github

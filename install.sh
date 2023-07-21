@@ -207,7 +207,10 @@ sudo git clone https://github.com/rezasp/joomscan.git
 
 # Instalando droopescan
 sudo git clone https://github.com/SamJoan/droopescan
-sudo pip install -r ~/Herramientas/droopescan/requirements.txt 
+cd droopescan/
+sudo pip install -r requirements.txt 
+sudo python3 setup.py install
+cd ..
 
 # Removiendo Repositorio
 

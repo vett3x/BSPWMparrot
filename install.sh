@@ -205,7 +205,7 @@ sudo gem install wpscan
 # Instalando joomscan https://github.com/OWASP/joomscan
 sudo git clone https://github.com/rezasp/joomscan.git
 
-# Instalando droopescan
+# Instalando droopescan https://github.com/SamJoan/droopescan
 sudo git clone https://github.com/SamJoan/droopescan
 cd droopescan/
 sudo pip install -r requirements.txt 

@@ -155,6 +155,8 @@ sudo rm nvim-linux64.tar.gz
 cd /opt/nvim-linux64/bin
 sudo ./nvim
 exit
+cd /opt/nvim-linux64/bin
+sudo ./nvim
 
 # Instalando flameshot
 sudo apt install flameshot -y

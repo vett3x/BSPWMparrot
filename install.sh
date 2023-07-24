@@ -142,17 +142,19 @@ rofi-theme-selector
 
 # Configurando Neovim con NVChad
 
+sudo su
 sudo apt install npm -y
-cd ~/Descargas
+cd
 wget "https://github.com/neovim/neovim/releases/download/stable/nvim-linux64.tar.gz"
 sudo rm -r ~/.config/nvim
 git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1
 cd /opt/
-sudo mv ~/Descargas/nvim-linux64.tar.gz .
+sudo mv ~/nvim-linux64.tar.gz .
 sudo tar -xf nvim-linux64.tar.gz
 sudo rm nvim-linux64.tar.gz
 cd /opt/nvim-linux64/bin
 sudo ./nvim
+exit
 
 # Instalando flameshot
 sudo apt install flameshot -y
